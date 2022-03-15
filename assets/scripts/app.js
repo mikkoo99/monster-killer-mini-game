@@ -7,7 +7,7 @@ const eneteredValue = prompt('Set health Value');
 
 let chosenMaxLife = parseInt(eneteredValue);
 if (isNaN(chosenMaxLife) || chosenMaxLife <= 0) {
-    chosenMaxLife = 1000;
+    chosenMaxLife = 100;
 }
 let currentMonsterHealth = chosenMaxLife;
 let currentPlayerHealth = chosenMaxLife;
